@@ -1,0 +1,142 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+page{
+  background: #4586ee;
+}
+.container{
+  width: 100%;
+  height:100%;
+  color: #fff;
+}
+.curadress{
+  height: 50rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+   padding:0 60rpx;
+}
+.curadress image{
+  width: 42rpx;
+  height: 42rpx;
+  display:inline-block;
+  vertical-align: baseline;
+  margin-right: 10rpx;
+}
+.curadress text{
+  font-size:40rpx;
+  vertical-align: baseline;
+ 
+}
+.sk{
+  height: 200rpx;
+  font-size: 28rpx;
+  padding:0 60rpx;
+  margin-bottom: 100rpx;
+  position: relative;
+  text-align: center;
+}
+.sk .temperature{
+  font-size: 70rpx;
+  height: 100rpx;
+  display: block;
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+.sk .te_content{
+  margin-bottom: 10rpx;
+  display: block;
+}
+.sk .dressing_advice{
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.today_container{
+  font-size: 28rpx;
+ 
+}
+.today_container>text{
+  height: 50rpx;
+  display: block;
+  border-bottom: 1px solid #fff;
+  line-height: 50rpx;
+  padding:0 40rpx;
+  margin-bottom: 20rpx;
+}
+.today_content{
+  width: 100%;
+  height: 170rpx;
+  padding:0 40rpx;
+  border-bottom: 1px solid #fff;
+}
+.today_content .item{
+  width: 82rpx;
+  text-align: center;
+  margin-right: 10rpx;
+  margin-bottom: 20rpx;
+}
+.today_content text{
+  text-align: center;
+}
+.today_content .item image{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin-bottom: 10rpx;
+  padding: 10rpx;
+}
+.today_content .item .time{
+  display: block;
+  margin-bottom: 10rpx;
+}
+.future{
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.future_tit{
+  height: 50rpx;
+  display: block;
+  line-height: 50rpx;
+  padding:0 40rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #fff;
+}
+.future .future_item{
+ height: 60rpx;
+ line-height: 60rpx;
+ position: relative;
+
+}
+.future_item .weekday{
+  margin-right: 20rpx;
+}
+.future_item .date{
+  margin-right: 10rpx;
+}
+.future_item image{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-top: -25rpx;
+  
+}
+.future_item .weather{
+  position: absolute;
+  right: 220rpx;
+}
+.future_item .tep{
+  position: absolute;
+  right: 0rpx;
+
+}
+/* .future_item .mintep{
+  position: absolute;
+  right: 40rpx;
+} */

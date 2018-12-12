@@ -1,0 +1,13 @@
+@import "../common/goodLeft/goodLeft.wxss";
+@import "../common/goodRight/goodRight.wxss";
+page{
+  display: flex;
+}
+.goodLeft{
+  flex: 1;
+  background: #f1f1f1;
+}
+.goodRight{
+  flex: 3;
+  background: #fff;
+}

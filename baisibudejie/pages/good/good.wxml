@@ -1,0 +1,13 @@
+<import src="../common/goodLeft/goodLeft.wxml"/>
+<import src="../common/goodRight/goodRight.wxml"/>
+<scroll-view   scroll-y="{{true}}"  class='goodLeft'>
+  <block>
+    <template is="goodLeftTemplate" data="{{leftList,currentId}}"/>
+  </block>
+</scroll-view> 
+<scroll-view   scroll-y="{{true}}"  class='goodRight'>
+  <block>
+    <template is="goodRightTemplate" data="{{rightList,addAttentionTap}}"/>
+  </block>
+</scroll-view> 
+

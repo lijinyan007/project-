@@ -1,0 +1,2 @@
+<import src="../common/goodRight/goodRight.wxml"></import>
+<template is="goodRightTemplate" data="{{rightList:list}}"/>

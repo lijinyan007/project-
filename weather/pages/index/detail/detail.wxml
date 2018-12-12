@@ -1,0 +1,39 @@
+
+<view class='detailcontainer'>
+
+    <view class='time'>
+      <text>{{todayList.date_y}}</text>
+    </view>
+    <view class='dressing_index detail_item'>
+      <image src='/images/detail/dress.png'></image>
+      <text>穿衣指数：{{todayList.dressing_index}}</text>
+    </view>
+    <view class='dressing_advice detail_item'>
+      <image src='/images/detail/dress.png'></image>
+      <text>穿衣建议：{{todayList.dressing_advice}}</text>
+    </view>
+    <view class='duv_index detail_item'>
+      <image src='/images/detail/duv.png'></image>
+      <text>紫外线：{{todayList.uv_index}}</text>
+    </view>
+    <view class='comfort_index detail_item' wx:if="{{todayList.comfort_index}}">
+     <image src='/images/detail/comfort.png'></image>
+      <text>舒适程度：{{todayList.comfort_index}}</text>
+    </view>
+    <view class='wash_index detail_item'>
+      <image src='/images/detail/washcar.png'></image>
+      <text>洗车指数：{{todayList.wash_index}}</text>
+    </view>
+    <view class='travel_index detail_item'>
+      <image src='/images/detail/travel.png'></image>
+      <text>旅游指数：{{todayList.travel_index}}</text>
+    </view>
+    <view class='exercise_index detail_item'>
+      <image src='/images/detail/exercise.png'></image>
+      <text>晨练指数：{{todayList.exercise_index}}</text>
+    </view>
+    <view class='drying_index detail_item' wx:if="{{todayList.drying_index}}">
+      <image src='/images/detail/duv.png'></image>
+      <text>干燥指数：{{todayList.drying_index}}</text>
+    </view>
+</view>

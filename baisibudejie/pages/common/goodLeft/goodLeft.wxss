@@ -1,0 +1,12 @@
+.left .item{
+  width: 100%;
+  height: 120rpx;
+  border-bottom: 2rpx solid #fff;
+  line-height: 120rpx;
+  text-align: center;
+}
+
+.left .item.active{
+  color: #d4237a;
+  border-left: 2px solid #d4237a;
+}

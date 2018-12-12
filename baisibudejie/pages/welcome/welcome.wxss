@@ -1,0 +1,31 @@
+page{
+  background-color:#bbe7f5;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bbe7f5;
+}
+.container .avatar-img{
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  border-radius:50%; 
+  margin: 200rpx 0 30rpx 0;
+}
+.container .avatar{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50rpx;
+}
+.journey-container{
+  width: 400rpx;
+  height: 85rpx;
+  line-height: 85rpx;
+  text-align: center;
+  border: 2rpx solid #fff;
+  border-radius: 40rpx;
+  color: #fff
+}

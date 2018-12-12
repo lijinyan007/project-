@@ -1,0 +1,33 @@
+{
+  "pages": [
+  	
+    "pages/index/main",
+    "pages/classification/main",
+   	"pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#efb336",
+    "navigationBarTitleText": "黑白漫画",
+    "navigationBarTextStyle": "#bfbfbf"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#efb336",
+    "color": "#bfbfbf",
+	  "list":[
+	  	{
+	  		"pagePath":"pages/index/main",
+		  	"text":"首页",
+		  	"iconPath":"./static/images/icon_index.png",
+		  	"selectedIconPath":"./static/images/icon_index_active.png"
+	  	},
+	  	{
+	  		"pagePath":"pages/classification/main",
+		  	"text":"分类",
+		  	"iconPath":"./static/images/icon_classification.png",
+		  	"selectedIconPath":"./static/images/icon_classification_active.png"
+	  	}
+	  ]
+	 }
+}

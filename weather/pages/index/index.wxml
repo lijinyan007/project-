@@ -1,0 +1,34 @@
+
+
+<view class="container">
+    <view class='curadress'>
+      <image src='/images/location.png'></image>
+      <text>{{currentdistrict}}</text>
+    </view>
+    <view class='sk' data="{{toadyList}}" catchtap='detailTap'>
+      <text class='temperature'>{{sk.temp}}℃</text>
+      <text class='te_content'>{{todayList.temperature}}  空气  良</text>
+      <text class='weather'>{{todayList.weather}}</text>
+      <view class='dressing_advice' >{{sk.wind_direction}}{{todayList.wind_strength}}</view>
+    </view>
+    <!-- <view class='today_container' data="{{toadyList}}">
+      <text>{{toadyList.week}}  今天</text>
+      <view class='today_content'>
+        <view class='item'>
+          <text class='time'>17:00</text>
+          <image src='/images/clear.png'></image>
+          <text class='sk_temp'>26℃</text>
+        </view>
+      </view>
+    </view> -->
+    <text class='future_tit'>未来几天天气</text>
+    <view class='future' wx:for="{{futureList}}">
+      <view class='future_item'  data-id='{{item.id}}'>
+        <text class='weekday'>{{item.week}}</text>
+        <text class='date'>{{item.date}}</text>
+        <image src="/images/weather_icon/day/{{item.weather_id.fa}}.png"  data-url='{{item.weather_id.fa}}'></image>
+        <text class='weather'>{{item.weather}}</text>
+        <text class='tep'>{{item.temperature}}</text>
+      </view>
+    </view>
+</view>

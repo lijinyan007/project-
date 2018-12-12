@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/detail/detail"
+    
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4586ee",
+    "navigationBarTitleText": "天气预报",
+    "enablePullDownRefresh": false
+  }
+}

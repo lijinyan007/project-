@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/good/good",
+    "pages/attention/attention",
+    "pages/index/detail/detail",
+    "pages/me/me"
+    
+  ],
+  "window": {
+    
+    "navigationBarBackgroundColor": "#d4237a"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#d4237a",
+    "color": "#515151",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "精华",
+        "iconPath": "images/icon/index.png",
+        "selectedIconPath": "images/icon/index_sel.png"
+      },
+      {
+        "pagePath": "pages/good/good",
+        "text": "推荐关注",
+        "iconPath": "images/icon/good.png",
+        "selectedIconPath": "images/icon/good_sel.png"
+      },
+      {
+        "pagePath": "pages/attention/attention",
+        "text": "关注",
+        "iconPath": "images/icon/attention.png",
+        "selectedIconPath": "images/icon/attention_sel.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "images/icon/me.png",
+        "selectedIconPath": "images/icon/me_sel.png"
+      }
+       
+    ]
+  }
+}
